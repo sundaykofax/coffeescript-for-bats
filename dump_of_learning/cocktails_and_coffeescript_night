@@ -1,0 +1,7 @@
+console.log (4 + 5) * 7
+
+console.log myAgeInYears = 30 + 5
+
+console.log doesSonyaCare = yes
+console.log "Does Sonya Care???", doesSonyaCare # this is so a comment
+
