@@ -5,3 +5,41 @@ console.log myAgeInYears = 30 + 5
 console.log doesSonyaCare = yes
 console.log "Does Sonya Care???", doesSonyaCare # this is so a comment
 
+# strings
+ages = [3, 3, 5, 4]
+coffeescripters = ["Rachel's Cat", 34, ["Lynn", "Emily", "Bux"] ]
+console.log coffeescripters[2]
+console.log ages[0..2]
+
+
+
+liskovCat = {
+  eyeColor: "sometimes yellow, sometimes orange",
+  furColor: "Black, Tan and White",
+  ageInMonths: 7,
+  favoriteFlyingMammal: "Bats"
+}
+
+# returning information
+console.log liskovCat.eyeColor
+console.log liskovCat["favoriteFlyingMammal"]
+
+sonya = {
+ coffeescriptExcitementLevel: "8",
+}
+brandi= {
+ coffeescriptExcitementLevel: "11",
+}
+
+console.log sonya.coffeescriptExcitementLevel
+enthusiasm = sonya.coffeescriptExcitementLevel
+expectedFutureEnthusiasm = enthusiasm * 5
+console.log expectedFutureEnthusiasm
+
+hairColors = ["orange", "pink and brown"]
+sonya["hairColor"] = hairColors[1]
+brandi["hairColor"] = hairColors[0]
+console.log sonya
+console.log brandi
+
+
