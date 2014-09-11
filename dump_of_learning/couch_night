@@ -1,0 +1,11 @@
+https://github.com/rachelmyers/coffeescript-for-bats/blob/master/functions/control_flow.md
+
+catA = {name: "Stella", age:7, fur: "grey"}
+catB = {name: "Basil", age:10, fur: "black and white"}
+catC = {name: "Mina", age:3, fur: "stripey"}
+catD = {name: "Liskov", age:4, fur: "orangey"}
+
+for key, value of catD
+  console.log "Liskov's #{key} is #{value}"
+  
+
